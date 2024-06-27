@@ -16,7 +16,6 @@ if (isAppLoaded){
 }
 
 // for loop
-let y = 1;
 for (let y=1; y<6; y += 1){
     console.log(y);
 }
