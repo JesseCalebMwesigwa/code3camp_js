@@ -43,3 +43,78 @@ var x = 5;
     var x = 10;
 }
 console.log(x);
+
+// array
+const apps =["Spotify", "Figma", "VSCode"];
+console.log(apps);
+
+// comments for javascript
+//A variable is assigned a value in one place and then used repetitively. 
+
+// This variable stores the current user's name for display purposes
+const userName = 'John';
+
+/*
+Purpose of the script:
+This script is a frontend application that interacts with the server.
+*/
+
+// Code that needs to be temporarily commented out to observe its impact:
+// someCodeHere;
+
+// JS Variables
+// let x = 1;
+// var x = 3;
+// const number = 42;
+
+// JS Let
+{
+    let variableInsideBlock = "Inside block";
+    console.log("Inside block:", variableInsideBlock);
+ 
+    console.log("Outside block:", variableInsideBlock);
+  }
+  
+  for (let i = 1; i <= 3; i++) {
+    console.log("Inside loop:", i);
+  }
+  
+// JS Const
+ const p = 10;
+ console.log(p);  
+
+ const person = {
+    name: "Alice",
+    age: 30,
+    city: "New York"
+  };
+console.log(person);
+
+// Arithmetic operations
+let num1 = 10;
+let num2 = 5;
+
+console.log("Arithmetic Operations:");
+console.log(`${num1 + num2}`);
+console.log(` ${num1 - num2}`);
+console.log(` ${num1 * num2}`);
+console.log(` ${num1 / num2}`);
+
+// Comparison operators
+let a = 5;
+let b = 10;
+
+console.log("\nComparison Operators:");
+console.log(` ${a > b}`);
+console.log(`${a < b}`);
+console.log(` ${a === b}`);
+console.log(` ${a !== b}`);
+
+// Logical operators
+let j = true;
+let k = false;
+
+console.log("Logical Operators:");
+console.log(`${j && k}`);
+console.log(`${j || k}`);
+console.log(` ${!j}`);
