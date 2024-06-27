@@ -88,6 +88,9 @@ This script is a frontend application that interacts with the server.
     city: "New York"
   };
 console.log(person);
+// added code...
+console.log(person.age);
+console.log(person.city);  
 
 // Arithmetic operations
 let num1 = 10;
