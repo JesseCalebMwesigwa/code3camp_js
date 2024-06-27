@@ -120,3 +120,34 @@ console.log("Logical Operators:");
 console.log(`${j && k}`);
 console.log(`${j || k}`);
 console.log(` ${!j}`);
+
+// JS Arithmetic
+let q = 2; 
+let w = 3;
+console.log(`${q+w}`);
+console.log(`${q-w}`);
+console.log(`${q*w}`);
+console.log(`${q/w}`);
+
+// JS Array
+const products = ["Laptop", "Phone", "iPad"];
+console.log(products);
+
+// assignment operators
+let n=15;
+let m=n+10;
+console.log(m);
+
+console.log(`${n+=5}`);
+console.log(`${n-=5}`);
+console.log(`${n*=5}`);
+
+// JS Data Types
+let country = "Uganda"; //string
+console.log(typeof "Uganda")
+let u; //undefined
+let h = 3; //number
+let student = {"name": "Jesse", "age": 22};
+console.log(typeof student);
+const phone = ["iPhone", "32GB"];
+console.log(typeof ["iPhone", "32GB"]);
